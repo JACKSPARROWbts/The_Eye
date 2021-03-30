@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djongo = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-rest-knox = "*"
+mango-jwt = "*"
+opencv-python = "*"
+pillow = "*"
+face-recognition = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
